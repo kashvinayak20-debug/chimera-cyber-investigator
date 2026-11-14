@@ -99,7 +99,8 @@ python -m forensic.evaluate
 ```bash
 streamlit run app.py
 ```
-Open **`http://localhost:8501`** in your browser.
+Open **`https://chimera-cyber-investigator.onrender.com/
+`** in your browser.
 
 ---
 
