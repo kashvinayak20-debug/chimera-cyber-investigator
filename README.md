@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🛡️ CHIMERA: Cyber Investigation & Attack Graph Reconstruction
 > **AI-Powered Cyber Detective Platform for Multi-Stage Silent Cyberattacks**  
 > *Built with an Explainable Seven-Stage Digital Forensic Timeline Engine*
@@ -141,4 +140,4 @@ Open **`http://localhost:8501`** in your browser.
 =======
 # chimera-cyber-investigator
 AI-powered Cyber Detective Platform that reconstructs stealthy multi stage cyber attacks from heterogeneous logs (Windows, Firewall, VPNs) into an explainable casual attack graph. Features unlogged evasion detection, Patient Zero isolation and Blast Radius scoring.
->>>>>>> 7b7c72c283f16593881143aaa259429d4ac043ed
+
