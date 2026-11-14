@@ -99,8 +99,8 @@ python -m forensic.evaluate
 ```bash
 streamlit run app.py
 ```
-Open **`https://chimera-cyber-investigator.onrender.com/
-`** in your browser.
+🚀 **Live Demo:** [https://chimera-cyber-investigator.onrender.com/](https://chimera-cyber-investigator.onrender.com/)
+
 
 ---
 
