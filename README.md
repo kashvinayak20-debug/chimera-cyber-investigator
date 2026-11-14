@@ -124,19 +124,7 @@ Open **`http://localhost:8501`** in your browser.
 
 ---
 
-## 🎤 3-Minute Hackathon Pitch Script (For Judges)
 
-* **0:00 – 0:45 (The Hook):**  
-  *"Judges, sophisticated cyber attackers don't smash windows. They use stolen credentials, walk slowly from system to system over several days, and throttle their actions below SIEM alert thresholds. A SIEM sees 5,000 normal events and raises zero alarms. Welcome to CHIMERA."*
-* **0:45 – 1:30 (The Math & The Engine):**  
-  *(Show Pipeline summary & ACI metric)*:  
-  *"CHIMERA reads heterogeneous logs across Windows, Firewall, and VPN sources. It resolves entities using Union-Find, maps actions onto a directed graph, and uses dynamic programming to find the maximum-suspicion attack chain $h(P) = \prod \alpha_i$. We calculate an Attack Confidence Index of 87.6% (Critical), backed by 100% precision against ground truth."*
-* **1:30 – 2:15 (The Corkboard & Missing Events):**  
-  *(Show Page 3 PyVis Graph and Page 2 Missing Events)*:  
-  *"Here is the red-string corkboard. Look at this gap: our template matching algorithm mathematically inferred with 93% confidence that the attacker performed privilege escalation between credential dumping and lateral movement, even though they tried to delete the log."*
-* **2:15 – 3:00 (Patient Zero, Blast Radius & AI Report):**  
-  *(Show Page 4 Investigation Report)*:  
-  *"We don't provide black-box guesswork. CHIMERA isolates Patient Zero at host PC-001 at 10:20 UTC citing Record #70, computes an enterprise blast radius score of 70/100, cites exact log records for every single claim, and outputs an actionable containment checklist for the incident response team."*
 =======
 # chimera-cyber-investigator
 AI-powered Cyber Detective Platform that reconstructs stealthy multi stage cyber attacks from heterogeneous logs (Windows, Firewall, VPNs) into an explainable casual attack graph. Features unlogged evasion detection, Patient Zero isolation and Blast Radius scoring.
