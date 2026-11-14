@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+data/forensic.db
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*

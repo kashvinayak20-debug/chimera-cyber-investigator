@@ -1,0 +1,46 @@
+{
+  "seed": 7,
+  "attack_chain": [
+    {
+      "source": "windows_sysmon",
+      "event_type": "LOGIN",
+      "timestamp": "2026-07-08 10:20:14"
+    },
+    {
+      "source": "windows_sysmon",
+      "event_type": "POWERSHELL_EXEC",
+      "timestamp": "2026-07-08 10:24:12"
+    },
+    {
+      "source": "windows_sysmon",
+      "event_type": "CREDENTIAL_DUMP",
+      "timestamp": "2026-07-08 10:28:33"
+    },
+    {
+      "source": "vpn_auth",
+      "event_type": "VPN_LOGIN",
+      "timestamp": "2026-07-08 10:31:31"
+    },
+    {
+      "source": "firewall",
+      "event_type": "DB_ACCESS",
+      "timestamp": "2026-07-08 10:35:22"
+    },
+    {
+      "source": "windows_sysmon",
+      "event_type": "ARCHIVE_CREATED",
+      "timestamp": "2026-07-08 10:39:01"
+    },
+    {
+      "source": "firewall",
+      "event_type": "EXTERNAL_UPLOAD",
+      "timestamp": "2026-07-08 10:42:01"
+    }
+  ],
+  "entity": {
+    "host": "PC-001",
+    "ip": "192.168.1.25",
+    "vpn_session": "S-4471"
+  },
+  "missing_stage": "PRIVILEGE_ESCALATION"
+}

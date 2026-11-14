@@ -1,0 +1,6 @@
+2026-07-08T08:25:00Z vpn-gw01 action=connect user=amartin session=S-4830 device="Laptop-AM" client_ip=192.168.1.30 assigned_ip=10.8.0.21
+2026-07-08T10:15:00Z vpn-gw01 action=disconnect user=amartin session=S-4830 bytes=27192056
+2026-07-08T10:31:31Z vpn-gw01 action=connect user=jsmith session=S-4471 device="User Device" client_ip=192.168.1.25 assigned_ip=10.8.0.14
+2026-07-08T11:10:00Z vpn-gw01 action=auth_failed user=rkumar session=- device="Laptop-RK" client_ip=192.168.1.31 reason=bad_otp
+2026-07-08T11:20:00Z vpn-gw01 action=connect user=rkumar session=S-4825 device="Laptop-RK" client_ip=192.168.1.31 assigned_ip=10.8.0.22
+2026-07-08T12:35:00Z vpn-gw01 action=disconnect user=rkumar session=S-4825 bytes=54778945
